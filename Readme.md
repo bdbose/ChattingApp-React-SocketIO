@@ -4,7 +4,7 @@
 
 You can checkout the app at -
 
-Check out the Messages in global API - [a link](https://socket-msg.herokuapp.com/messages)
+Check out the Messages in global API - https://socket-msg.herokuapp.com/messages
 
 ## Preview
 
