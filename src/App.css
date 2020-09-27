@@ -1,38 +1,139 @@
+/** @format */
+
+body {
+	background-color: #34495e;
+}
+
 .App {
-  text-align: center;
+	width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display {
+	width: 100%;
+	overflow-y: auto;
+	height: 78vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#box {
+	padding: 10px 0;
+	position: fixed;
+	background: #3498db;
+	bottom: 0;
+	width: 100%;
+}
+form {
+	display: flex;
+}
+textarea {
+	outline: none;
+	font-size: large;
+	height: 20px;
+	margin: 0 0 0 5px;
+	padding: 5px;
+	border-radius: 10px;
+	resize: none;
+	width: -webkit-fill-available;
+}
+#box button {
+	border: 0;
+	border-radius: 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	outline: none;
+	background-color: #2ecc71;
+	color: white;
+	transition: 0.5s;
+}
+#box button:hover {
+	background-color: #1abc9c;
+}
+#box button:active {
+	transition-duration: 0.05s;
+	transform: scale(1.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#user_name {
+	font-size: 20px;
+	padding: 20px;
+	color: white;
+	display: flex;
+	align-items: center;
+	background-color: #3498db;
 }
 
-.App-link {
-  color: #61dafb;
+#chat {
+	transition: 0.5s linear;
+	padding: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#name,
+#message {
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+#details {
+	padding: 20px 0;
+}
+#name {
+	color: #2ecc71;
+}
+#message {
+	color: white;
+}
+#time {
+	text-align: end;
+	margin-right: 10px;
+	font-size: small;
+	color: gray;
+}
+#setting {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+#logo {
+	border-radius: 50%;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	background-color: saddlebrown;
+	margin-right: 7px;
+}
+.logo_wrapper {
+	width: fit-content;
+	margin: auto;
+	line-height: 30px;
+}
+.title {
+	font-size: 50px;
+	color: yellow;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+}
+.home {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30vh;
+}
+.home form {
+	margin: auto;
+	display: block;
+}
+.home input {
+	margin: 20px auto;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 0;
+}
+.home button {
+	display: block;
+	margin: 30px auto;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-weight: bold;
+	cursor: pointer;
 }
