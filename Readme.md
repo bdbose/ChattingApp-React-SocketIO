@@ -12,4 +12,4 @@ Check out the Messages in global API - [a link](https://socket-msg.herokuapp.com
 
 ## Mobile Preview
 
-<img src='/img/mobilesoc.png' height='400' width='100%' >
+<img src='/img/mobilesoc.png' height='400' >
